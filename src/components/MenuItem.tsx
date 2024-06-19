@@ -10,7 +10,7 @@ export default function MenuItem({ item, addItem }: MenuItemProps) {
   return (
     <>
       <button
-        className=" border-2 border-teal-400 hover:bg-teal-200 w-full p-2 flex justify-between"
+        className=" border-2 border-teal-400 hover:bg-teal-200 w-full p-2 flex justify-between items-center"
         onClick={() => addItem(item)}>
 
         <p>{item.name}</p>
